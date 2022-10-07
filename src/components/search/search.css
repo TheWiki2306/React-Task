@@ -1,0 +1,40 @@
+.container.search_container {
+    width: 80%;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 10.5rem;
+    margin-top: 1.5rem;
+}
+
+.search_container input {
+    width: 70%;
+    height: 3rem;
+    padding-left: 0.3rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(156, 156, 156);
+    background: transparent;
+}
+
+.search_container button {
+    font-size: 0.7em;
+    font-weight: bold;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    background: var(--hd-color);
+    color: aliceblue;
+}
+
+.search_container button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .search_container {
+        margin-left: 6rem;
+    }
+}
